@@ -1,0 +1,13 @@
+# RStudio user files
+.Rproj.user/
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS
+.DS_Store
+
+# Data
+data/

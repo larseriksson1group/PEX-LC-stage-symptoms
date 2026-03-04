@@ -14,3 +14,4 @@ data/
 
 # Avoid uploading huge files
 **/*.rds
+**/all_pred.csv

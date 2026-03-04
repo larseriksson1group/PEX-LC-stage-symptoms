@@ -347,36 +347,43 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
 
   # ---- Calculate per-fold variable importance ----
 
+  # Set up parallel processing for variable importance calculation
   plan(multisession, workers = n_cores)
 
   t1 <- Sys.time()
-  set.seed(seed)
+  set.seed(seed) # Ensure reproducibility of variable importance results
   results <- foreach(i = seq_along(folds),
                      .options.future = list(seed = TRUE)) %dofuture% {
 
+    # Extract fold and repeat identifiers from fold names                
     fold_name <- names(folds)[i]
     rep_id <- sub('.*\\.', '', names(folds)[i])
     fold_id <- sub('\\..*', '', names(folds)[i])
 
     cat("\n=== Calculating variable importance for", rep_id, fold_id, " ===\n")
 
+    # Create training and test sets for the current fold
     train_indices <- folds[[i]]
     train_data <- data[train_indices, ]
     test_indices <- setdiff(seq_len(nrow(data)), train_indices)
     test_data <- data[test_indices, ]
 
+    # Apply the same recipe as during initial training
     fold_recipe <- recipe(train_data) %>%
       update_role(-all_of(response_var), new_role = "predictor") %>%
       update_role(all_of(response_var), new_role = "outcome") %>%
       step_normalize(any_of('Age'))
 
+    # Prep the recipe on the training data and apply to both training and test sets,
+    # as caret train() does during model fitting
     prep_recipe <- prep(fold_recipe, training = train_data)
     train_data <- bake(prep_recipe, new_data = train_data)
     test_data <- bake(prep_recipe, new_data = test_data)
 
+    # Define options for caret train
     ctrl <- trainControl(
-      seeds = seeds[[i]],
-      method = 'none',
+      seeds = seeds[[i]], # Use the same seed as in initial training
+      method = 'none', # no resampling, fit a single model with the best hyperparameters
       classProbs = TRUE,
       allowParallel = FALSE)
 
@@ -385,14 +392,20 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
     mod <- vector(mode = 'list', length = 3)
     names(mod) <- c('RLR', 'RF', 'XGB')
 
+    # Get the best hyperparameters for this fold
     en_grid <- best_params |>
       filter(model == 'RLR') |>
       dplyr::select(where(~!all(is.na(.))), -model,
                     -contains('mean'), -contains('sd'))
 
+    # Fit a model on the training data for this fold
     mod[['RLR']] <- train(
-      formula, data = train_data, method = 'glmnet',
-      trControl = ctrl, tuneGrid = en_grid, metric = "ROC")
+      formula, 
+      data = train_data, 
+      method = 'glmnet',
+      trControl = ctrl, 
+      tuneGrid = en_grid, 
+      metric = "ROC")
 
     rf_grid <- best_params |>
       filter(model == 'RF') |>
@@ -400,8 +413,12 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
                     -contains('mean'), -contains('sd'))
 
     mod[['RF']] <- train(
-      formula, data = train_data, method = 'ranger',
-      trControl = ctrl, tuneGrid = rf_grid, metric = "ROC",
+      formula, 
+      data = train_data, 
+      method = 'ranger',
+      trControl = ctrl, 
+      tuneGrid = rf_grid, 
+      metric = "ROC",
       importance = 'permutation')
 
     xgb_grid <- best_params |>
@@ -410,17 +427,21 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
                     -contains('mean'), -contains('sd'))
 
     mod[['XGB']] <- train(
-      formula, data = train_data, method = 'xgbTree',
-      trControl = ctrl, tuneGrid = xgb_grid, metric = "ROC",
+      formula, 
+      data = train_data,
+      method = 'xgbTree',
+      trControl = ctrl, 
+      tuneGrid = xgb_grid, 
+      metric = "ROC",
       nthread = 1)
 
-    # Model-internal variable importance (e.g. impurity for RF, coefficients for RLR)
+    # Get model-internal variable importance
     model_var_imp_fold <- map(mod, ~varImp(.x, scale = FALSE)) |>
       map(~.x$importance) |>
       map(~rownames_to_column(.x, var = 'Variable')) |>
       bind_rows(.id = 'model')
 
-    # Permutation variable importance on the held-out test fold
+    # Calculate permutation variable importance on the held-out test fold
     var_imp_fold <- map(mod, function(fit) {
       vip::vi(
         fit,
@@ -429,7 +450,7 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
         metric = 'roc_auc',
         feature_names = predictor_vars,
         train = test_data,
-        nsim = 50,
+        nsim = 50, # 50 permutations per variable
         event_level = 'first',
         pred_wrapper = function(object, newdata) {
           predict.train(object, newdata, type = "prob")[, positive_class]
@@ -461,7 +482,7 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
   var_imp_model <- map_dfr(results, ~.x$model_var_imp, .id = "resample") |>
     dplyr::rename(Importance = Overall) |>
     group_by(model, resample) |>
-    mutate(importance_scaled = (Importance - min(Importance)) /
+    mutate(importance_scaled = (Importance - min(Importance)) / # scale to 0-1 within each fold
              (max(Importance) - min(Importance))) |>
     ungroup()
 
@@ -472,20 +493,21 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
   # Summary of permutation importance across folds
   var_imp_perm_summary <- var_imp_perm |>
     group_by(model, resample) |>
-    mutate(Rank_all = dense_rank(desc(Importance)),
+    mutate(Rank_all = dense_rank(desc(Importance)), # importance rank
            Importance_pos = if_else(Importance <= 0, NA_real_, Importance),
-           Rank_pos = dense_rank(desc(Importance_pos))) |>
+           Rank_pos = dense_rank(desc(Importance_pos))) |> # importance rank among positive contributors only
     group_by(model, Variable) |>
     dplyr::summarise(
       n_total = n(),
-      n_pos_contr = sum(Importance > 0),
-      freq_pos_contr = n_pos_contr / n_total,
-      median_rank = median(Rank_all),
-      freq_top10 = sum(Rank_pos <= 10, na.rm = TRUE) / n_total,
-      mean_importance = mean(Importance, na.rm = TRUE),
+      n_pos_contr = sum(Importance > 0), # number of folds where variable had positive importance
+      freq_pos_contr = n_pos_contr / n_total, # frequency of positive contribution across folds
+      median_rank = median(Rank_all), # median rank across folds
+      freq_top10 = sum(Rank_pos <= 10, na.rm = TRUE) / n_total, # frequency of being in top 10 among positive contributors 
+      mean_importance = mean(Importance, na.rm = TRUE), # mean importance across folds
       sd_importance = sd(Importance, na.rm = TRUE),
       median_importance = median(Importance, na.rm = TRUE),
       .groups = 'keep') |>
+    # Calculate 95% confidence intervals for mean importance
     mutate(se = sd_importance / sqrt(n_total),
            ci_lower = mean_importance - qt(0.975, df = n_total - 1) * se,
            ci_upper = mean_importance + qt(0.975, df = n_total - 1) * se) |>
@@ -505,8 +527,8 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
     group_by(model, Variable) |>
     dplyr::summarise(
       n_total = n(),
-      n_selected = sum(Importance > 0),
-      selection_frequency = n_selected / n_total,
+      n_selected = sum(Importance > 0), # selected if importance > 0 in a given fold
+      selection_frequency = n_selected / n_total, # frequency of selection across folds
       median_rank = median(Rank_all),
       freq_top10 = sum(Rank_pos <= 10, na.rm = TRUE) / n_total,
       mean_importance = mean(Importance, na.rm = TRUE),
@@ -515,7 +537,7 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
       .groups = 'drop') |>
     group_by(model) |>
     mutate(
-      importance_scaled = (mean_importance - min(mean_importance)) /
+      importance_scaled = (mean_importance - min(mean_importance)) / # scale to 0-1 within each model
         (max(mean_importance) - min(mean_importance)),
       sd_importance_scaled = sd_importance /
         (max(mean_importance) - min(mean_importance))) |>
@@ -539,11 +561,13 @@ run_ml_analysis <- function(data, response_var, positive_class, res_path,
             file.path(res_path, paste0('selected_vars', output_suffix, '.csv')),
             row.names = FALSE)
 
+  # Save fold models
   final_models <- map(results, ~.x$final_models) |>
     purrr::list_flatten()
   saveRDS(final_models,
           file.path(res_path, paste0('final_models', output_suffix, '.rds')))
 
+  # Save results
   res_list <- list(
     best_params = best_params,
     best_param_results = best_param_results,
@@ -628,14 +652,13 @@ mean_roc <- function(cv_preds, classes) {
     middle <- roc_df[roc_df$spec > 0 & roc_df$spec < 1, ]
     
     # Handle duplicates in middle by keeping max sensitivity
-    # Only process middle if it has rows
     if(nrow(middle) > 0) {
       middle <- middle %>%
         group_by(spec) %>%
         summarise(sens = max(sens), .groups = "drop")
     }
     
-    # Recombine with theoretical boundaries
+    # Add theoretical boundaries
     roc_df <- bind_rows(
       data.frame(spec = 0, sens = 1),  # Upper boundary
       middle,

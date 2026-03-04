@@ -11,3 +11,7 @@
 
 # Data
 data/
+
+# Avoid uploading huge files
+**/final_models.rds
+**/all_results.rds

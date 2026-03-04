@@ -1,0 +1,21 @@
+
+RLR_only:
+Gasp_for_air, Pain_persists_worsens_when_breathing, Asthma, Changes_hard_to_describe, Unlike_other_coughs, Legs_do_not_support, Persistent_fatigue, Thickness_in_throat
+
+RF_only:
+Heart_disease, Felt_worn_out, Lump_swelling_or_obstruction_sensation
+
+XGB_only:
+Antibiotics_last_2_y, University_education, Wheezing
+
+RLR_RF:
+Feeling_chilly, Emphysema
+
+RLR_XGB:
+Cold_flu_pneumonia_last_2_y, Pleural_fluid
+
+RF_XGB:
+Hard_to_get_air, Dryer_mouth, Poorer_condition_lower_fitness, Hoarse_voice, COPD, Less_will_to_do_things, Weight_reduction_last_2_y
+
+All_three:
+Age, Current_daily_smoker, Fever, Breathing_sound_whistling, Living_alone, Irritating_cough, Sex, Increased_need_for_sleep

@@ -1,0 +1,301 @@
+"model","resample","variables","n_variables"
+"RF","Fold01.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Current_daily_smoker, Less_Smoking",9
+"RF","Fold01.Rep02","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold01.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Anemia, Pneumonia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",15
+"RF","Fold01.Rep04","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",11
+"RF","Fold01.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold01.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",11
+"RF","Fold01.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, COPD, Pleural_fluid, Heart_disease, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold01.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Heart_disease, Pneumonia, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold01.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Current_daily_smoker, Less_Smoking",9
+"RF","Fold01.Rep10","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Heart_disease, No_comorbidities, Current_daily_smoker, More_Smoking, Less_Smoking",13
+"RF","Fold02.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Pneumonia, Current_daily_smoker, Less_Smoking",14
+"RF","Fold02.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",13
+"RF","Fold02.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold02.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold02.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, COPD, Pleural_fluid, No_comorbidities, Current_daily_smoker, Less_Smoking",11
+"RF","Fold02.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Pneumonia, Current_daily_smoker, Less_Smoking",14
+"RF","Fold02.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Weight_increase_last_2_y, Current_daily_smoker, More_Smoking, Less_Smoking",17
+"RF","Fold02.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Pneumonia, Current_daily_smoker, Less_Smoking",13
+"RF","Fold02.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RF","Fold02.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",12
+"RF","Fold03.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Anemia, Heart_disease, Current_daily_smoker, Less_Smoking",14
+"RF","Fold03.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Heart_disease, Current_daily_smoker, Less_Smoking",11
+"RF","Fold03.Rep03","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Anemia, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold03.Rep04","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Anemia, Heart_disease, No_comorbidities, Current_daily_smoker, Less_Smoking",13
+"RF","Fold03.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",10
+"RF","Fold03.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold03.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold03.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",13
+"RF","Fold03.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker",11
+"RF","Fold03.Rep10","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pneumonia, Weight_reduction_last_2_y, Weight_increase_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold04.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Weight_increase_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold04.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Pneumonia, Current_daily_smoker, Less_Smoking",12
+"RF","Fold04.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Heart_disease, No_comorbidities, Current_daily_smoker, Less_Smoking",14
+"RF","Fold04.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Pneumonia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold04.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold04.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Anemia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold04.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Pneumonia, No_comorbidities, Current_daily_smoker, Less_Smoking",14
+"RF","Fold04.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Angina_pectoris, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold04.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, No_comorbidities, Current_daily_smoker, More_Smoking, Less_Smoking",14
+"RF","Fold04.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold05.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Heart_disease, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",15
+"RF","Fold05.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",13
+"RF","Fold05.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",13
+"RF","Fold05.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pneumonia, No_comorbidities, Current_daily_smoker, Less_Smoking",14
+"RF","Fold05.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Heart_disease, No_comorbidities, Current_daily_smoker, Less_Smoking",14
+"RF","Fold05.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, No_comorbidities, Current_daily_smoker, More_Smoking, Less_Smoking",14
+"RF","Fold05.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Anemia, Angina_pectoris, Current_daily_smoker, Less_Smoking",13
+"RF","Fold05.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold05.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Heart_disease, Weight_increase_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold05.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold06.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RF","Fold06.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Current_daily_smoker, Less_Smoking",10
+"RF","Fold06.Rep03","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Current_daily_smoker, Less_Smoking",9
+"RF","Fold06.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RF","Fold06.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Angina_pectoris, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold06.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker",11
+"RF","Fold06.Rep07","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Current_daily_smoker, Less_Smoking",9
+"RF","Fold06.Rep08","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Anemia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold06.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Anemia, Angina_pectoris, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",15
+"RF","Fold06.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold07.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold07.Rep02","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold07.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, Chronic_bronchitis, COPD, Heart_disease, No_comorbidities, Current_daily_smoker, Less_Smoking",13
+"RF","Fold07.Rep04","Age, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",11
+"RF","Fold07.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, COPD, Anemia, Current_daily_smoker",9
+"RF","Fold07.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pneumonia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold07.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Pneumonia, No_comorbidities, Current_daily_smoker, Less_Smoking",15
+"RF","Fold07.Rep08","Age, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Current_daily_smoker, Less_Smoking",9
+"RF","Fold07.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Weight_increase_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold07.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",13
+"RF","Fold08.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",12
+"RF","Fold08.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",11
+"RF","Fold08.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold08.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold08.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Current_daily_smoker, Less_Smoking",12
+"RF","Fold08.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Pneumonia, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",15
+"RF","Fold08.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pneumonia, Current_daily_smoker, Less_Smoking",12
+"RF","Fold08.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Heart_disease, Weight_increase_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold08.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Anemia, Current_daily_smoker, Less_Smoking",13
+"RF","Fold08.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold09.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold09.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Anemia, Current_daily_smoker, Less_Smoking",11
+"RF","Fold09.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Heart_disease, Weight_reduction_last_2_y, Current_daily_smoker, More_Smoking, Less_Smoking",15
+"RF","Fold09.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",11
+"RF","Fold09.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Pneumonia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold09.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, No_comorbidities, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold09.Rep07","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Weight_increase_last_2_y, Current_daily_smoker, Less_Smoking",12
+"RF","Fold09.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold09.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Heart_disease, Pneumonia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",14
+"RF","Fold09.Rep10","Age, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Anemia, Heart_disease, Current_daily_smoker, Less_Smoking",13
+"RF","Fold10.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Angina_pectoris, No_comorbidities, Current_daily_smoker, Less_Smoking",13
+"RF","Fold10.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Heart_disease, Pneumonia, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",13
+"RF","Fold10.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Current_daily_smoker, Less_Smoking",10
+"RF","Fold10.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RF","Fold10.Rep05","Age, Living_alone, University_education, Asthma, Emphysema, COPD, Pneumonia, Current_daily_smoker, Less_Smoking",9
+"RF","Fold10.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",11
+"RF","Fold10.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Anemia, Current_daily_smoker, Less_Smoking",12
+"RF","Fold10.Rep08","Age, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, COPD, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",9
+"RF","Fold10.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RF","Fold10.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RLR","Fold01.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Current_daily_smoker",6
+"RLR","Fold01.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold01.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Asbestos, COPD, Pleural_fluid, Anemia, Current_daily_smoker",13
+"RLR","Fold01.Rep04","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold01.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",9
+"RLR","Fold01.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold01.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, COPD, Pleural_fluid, Current_daily_smoker, More_Smoking, Less_Smoking",10
+"RLR","Fold01.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Angina_pectoris, Current_daily_smoker",8
+"RLR","Fold01.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Current_daily_smoker, More_Smoking",7
+"RLR","Fold01.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, More_Smoking",11
+"RLR","Fold02.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Pleural_fluid, Current_daily_smoker, More_Smoking",10
+"RLR","Fold02.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold02.Rep03","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Asbestos, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",11
+"RLR","Fold02.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Chronic_bronchitis, COPD, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold02.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold02.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Pleural_fluid, Angina_pectoris, Current_daily_smoker, More_Smoking",11
+"RLR","Fold02.Rep07","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, More_Smoking",9
+"RLR","Fold02.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold02.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Pleural_fluid, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold02.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold03.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Anemia, Current_daily_smoker",9
+"RLR","Fold03.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Weight_reduction_last_2_y, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold03.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Angina_pectoris, Current_daily_smoker, More_Smoking",10
+"RLR","Fold03.Rep04","Age, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Anemia, Current_daily_smoker",8
+"RLR","Fold03.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker",7
+"RLR","Fold03.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Angina_pectoris, Current_daily_smoker",8
+"RLR","Fold03.Rep07","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",9
+"RLR","Fold03.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold03.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold03.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, Current_daily_smoker",8
+"RLR","Fold04.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold04.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold04.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Angina_pectoris, Current_daily_smoker",12
+"RLR","Fold04.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, COPD, Pleural_fluid, Angina_pectoris, Current_daily_smoker, More_Smoking",11
+"RLR","Fold04.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, Pleural_fluid, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold04.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold04.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold04.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold04.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Current_daily_smoker, More_Smoking",8
+"RLR","Fold04.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",9
+"RLR","Fold05.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",8
+"RLR","Fold05.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Chronic_bronchitis, COPD, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold05.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold05.Rep04","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Current_daily_smoker",8
+"RLR","Fold05.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold05.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, COPD, Pleural_fluid, Current_daily_smoker, More_Smoking",12
+"RLR","Fold05.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Pleural_fluid, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold05.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold05.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold05.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Current_daily_smoker, Less_Smoking",7
+"RLR","Fold06.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold06.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Current_daily_smoker",6
+"RLR","Fold06.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold06.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold06.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold06.Rep06","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold06.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Chronic_bronchitis, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold06.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Anemia, Current_daily_smoker",10
+"RLR","Fold06.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold06.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",9
+"RLR","Fold07.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, More_Smoking",9
+"RLR","Fold07.Rep02","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold07.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Current_daily_smoker",7
+"RLR","Fold07.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker, Less_Smoking",11
+"RLR","Fold07.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Anemia, Weight_reduction_last_2_y, Current_daily_smoker",9
+"RLR","Fold07.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Current_daily_smoker",8
+"RLR","Fold07.Rep07","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pneumonia, Current_daily_smoker",9
+"RLR","Fold07.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Current_daily_smoker",6
+"RLR","Fold07.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold07.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold08.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, COPD, Pleural_fluid, Current_daily_smoker",11
+"RLR","Fold08.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, Current_daily_smoker",9
+"RLR","Fold08.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",11
+"RLR","Fold08.Rep04","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",9
+"RLR","Fold08.Rep05","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker, More_Smoking",10
+"RLR","Fold08.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",8
+"RLR","Fold08.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, Pleural_fluid, Current_daily_smoker",10
+"RLR","Fold08.Rep08","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Current_daily_smoker",8
+"RLR","Fold08.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, COPD, Anemia, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold08.Rep10","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold09.Rep01","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold09.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, Pleural_fluid, Anemia, Current_daily_smoker",10
+"RLR","Fold09.Rep03","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker",10
+"RLR","Fold09.Rep04","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker",7
+"RLR","Fold09.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold09.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, Pleural_fluid, Current_daily_smoker",9
+"RLR","Fold09.Rep07","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold09.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Asbestos, Chronic_bronchitis, Pleural_fluid, Current_daily_smoker",11
+"RLR","Fold09.Rep09","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Asbestos, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",13
+"RLR","Fold09.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, Asbestos, Pleural_fluid, Anemia, Current_daily_smoker",12
+"RLR","Fold10.Rep01","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold10.Rep02","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Asthma, Emphysema, COPD, Pleural_fluid, Current_daily_smoker, Less_Smoking",12
+"RLR","Fold10.Rep03","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Pleural_fluid, Current_daily_smoker",7
+"RLR","Fold10.Rep04","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold10.Rep05","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Current_daily_smoker, Less_Smoking",9
+"RLR","Fold10.Rep06","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Emphysema, Pleural_fluid, Angina_pectoris, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold10.Rep07","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Anemia, Current_daily_smoker, Less_Smoking",10
+"RLR","Fold10.Rep08","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Emphysema, Pleural_fluid, Current_daily_smoker, More_Smoking",9
+"RLR","Fold10.Rep09","Age, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",8
+"RLR","Fold10.Rep10","Age, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, Asthma, Emphysema, Pleural_fluid, Current_daily_smoker",9
+"XGB","Fold01.Rep01","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold01.Rep02","Age, Current_daily_smoker, Living_alone, Sex, COPD, Cold_flu_pneumonia_last_2_y, University_education",7
+"XGB","Fold01.Rep03","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Living_alone, Antibiotics_last_2_y, Sex, COPD, Weight_reduction_last_2_y",8
+"XGB","Fold01.Rep04","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Weight_reduction_last_2_y, Pleural_fluid",7
+"XGB","Fold01.Rep05","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Pleural_fluid, COPD, Sex",7
+"XGB","Fold01.Rep06","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold01.Rep07","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, COPD, Antibiotics_last_2_y, University_education",8
+"XGB","Fold01.Rep08","Age, Current_daily_smoker, Living_alone, Sex, Weight_reduction_last_2_y, Cold_flu_pneumonia_last_2_y",6
+"XGB","Fold01.Rep09","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Living_alone, Antibiotics_last_2_y, Sex, Heart_disease",7
+"XGB","Fold01.Rep10","Age, Current_daily_smoker, Living_alone, COPD, Cold_flu_pneumonia_last_2_y, Pleural_fluid, Sex, Emphysema",8
+"XGB","Fold02.Rep01","Age, Current_daily_smoker, Living_alone, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, University_education, No_comorbidities, Sex",8
+"XGB","Fold02.Rep02","Age, Current_daily_smoker, Living_alone, University_education, COPD, Cold_flu_pneumonia_last_2_y, Sex, Weight_reduction_last_2_y",8
+"XGB","Fold02.Rep03","Age, Current_daily_smoker, Living_alone, Antibiotics_last_2_y, Sex, Cold_flu_pneumonia_last_2_y, University_education",7
+"XGB","Fold02.Rep04","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, COPD, University_education",7
+"XGB","Fold02.Rep05","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, COPD",6
+"XGB","Fold02.Rep06","Age, Current_daily_smoker, Living_alone, Antibiotics_last_2_y, Sex, Cold_flu_pneumonia_last_2_y, University_education",7
+"XGB","Fold02.Rep07","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Pleural_fluid",7
+"XGB","Fold02.Rep08","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex",5
+"XGB","Fold02.Rep09","Age, Current_daily_smoker, Living_alone, Sex, Pleural_fluid, Antibiotics_last_2_y",6
+"XGB","Fold02.Rep10","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, COPD",7
+"XGB","Fold03.Rep01","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, COPD, Weight_reduction_last_2_y",8
+"XGB","Fold03.Rep02","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Weight_reduction_last_2_y, Antibiotics_last_2_y, Pleural_fluid",8
+"XGB","Fold03.Rep03","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y, No_comorbidities",8
+"XGB","Fold03.Rep04","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Sex, Pleural_fluid, Weight_reduction_last_2_y",8
+"XGB","Fold03.Rep05","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Pleural_fluid, COPD",7
+"XGB","Fold03.Rep06","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y",6
+"XGB","Fold03.Rep07","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y",5
+"XGB","Fold03.Rep08","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Pleural_fluid, Born_in_sweden, Less_Smoking, COPD",9
+"XGB","Fold03.Rep09","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Sex, Living_alone, Antibiotics_last_2_y, University_education",7
+"XGB","Fold03.Rep10","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, University_education, COPD, Sex",8
+"XGB","Fold04.Rep01","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Weight_reduction_last_2_y, University_education, Cold_flu_pneumonia_last_2_y",8
+"XGB","Fold04.Rep02","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Antibiotics_last_2_y",6
+"XGB","Fold04.Rep03","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Antibiotics_last_2_y",6
+"XGB","Fold04.Rep04","Age, Current_daily_smoker, Living_alone, Sex, Weight_reduction_last_2_y, COPD, University_education, Cold_flu_pneumonia_last_2_y",8
+"XGB","Fold04.Rep05","Age, Current_daily_smoker, Sex, Living_alone, COPD, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y",7
+"XGB","Fold04.Rep06","Age, Current_daily_smoker, Sex, Cold_flu_pneumonia_last_2_y, Living_alone, Antibiotics_last_2_y, University_education",7
+"XGB","Fold04.Rep07","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Living_alone, Sex, Pleural_fluid, COPD",7
+"XGB","Fold04.Rep08","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold04.Rep09","Age, Current_daily_smoker, Living_alone, Sex, Born_in_sweden, No_comorbidities, Antibiotics_last_2_y, Weight_reduction_last_2_y, Cold_flu_pneumonia_last_2_y",9
+"XGB","Fold04.Rep10","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Born_in_sweden",6
+"XGB","Fold05.Rep01","Age, Current_daily_smoker, Sex, Living_alone, COPD, Weight_reduction_last_2_y",6
+"XGB","Fold05.Rep02","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Antibiotics_last_2_y, Pleural_fluid",7
+"XGB","Fold05.Rep03","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y",6
+"XGB","Fold05.Rep04","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y",5
+"XGB","Fold05.Rep05","Age, Current_daily_smoker, Sex, Living_alone, University_education, Cold_flu_pneumonia_last_2_y, COPD, Antibiotics_last_2_y, Weight_reduction_last_2_y",9
+"XGB","Fold05.Rep06","Age, Current_daily_smoker, Living_alone, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, COPD, Sex, University_education, Asthma",9
+"XGB","Fold05.Rep07","Age, Current_daily_smoker, Pleural_fluid, Living_alone, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y",6
+"XGB","Fold05.Rep08","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Pleural_fluid",6
+"XGB","Fold05.Rep09","Age, Current_daily_smoker, Sex, Cold_flu_pneumonia_last_2_y, Living_alone, Antibiotics_last_2_y, COPD, Weight_reduction_last_2_y, University_education",9
+"XGB","Fold05.Rep10","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, COPD, University_education",7
+"XGB","Fold06.Rep01","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Living_alone, Sex, Pleural_fluid, University_education, Heart_disease",8
+"XGB","Fold06.Rep02","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y",6
+"XGB","Fold06.Rep03","Age, Current_daily_smoker, Living_alone, Sex, Weight_reduction_last_2_y",5
+"XGB","Fold06.Rep04","Age, Current_daily_smoker, Living_alone, Sex, University_education, Cold_flu_pneumonia_last_2_y, Pleural_fluid",7
+"XGB","Fold06.Rep05","Age, Current_daily_smoker, Living_alone, Born_in_sweden, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y",8
+"XGB","Fold06.Rep06","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, COPD, Pleural_fluid, Antibiotics_last_2_y",8
+"XGB","Fold06.Rep07","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Less_Smoking",5
+"XGB","Fold06.Rep08","Age, Living_alone, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Sex, University_education, No_comorbidities, Pleural_fluid",8
+"XGB","Fold06.Rep09","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, Weight_reduction_last_2_y, University_education, COPD",9
+"XGB","Fold06.Rep10","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, University_education, Antibiotics_last_2_y, Weight_reduction_last_2_y",8
+"XGB","Fold07.Rep01","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Less_Smoking, COPD, Antibiotics_last_2_y",8
+"XGB","Fold07.Rep02","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Antibiotics_last_2_y",6
+"XGB","Fold07.Rep03","Age, Current_daily_smoker, Sex, Living_alone, Weight_reduction_last_2_y, Antibiotics_last_2_y",6
+"XGB","Fold07.Rep04","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, COPD, Antibiotics_last_2_y",7
+"XGB","Fold07.Rep05","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Weight_reduction_last_2_y, Sex",6
+"XGB","Fold07.Rep06","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold07.Rep07","Age, Current_daily_smoker, Living_alone, Antibiotics_last_2_y, Sex, Born_in_sweden, Cold_flu_pneumonia_last_2_y, COPD",8
+"XGB","Fold07.Rep08","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Sex, Living_alone, Antibiotics_last_2_y, COPD",7
+"XGB","Fold07.Rep09","Age, Current_daily_smoker, Living_alone, Sex, University_education, COPD, Cold_flu_pneumonia_last_2_y",7
+"XGB","Fold07.Rep10","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Pleural_fluid, Cold_flu_pneumonia_last_2_y, Heart_disease",8
+"XGB","Fold08.Rep01","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, University_education, COPD, Sex",7
+"XGB","Fold08.Rep02","Age, Current_daily_smoker, Sex, Living_alone, University_education, COPD, Cold_flu_pneumonia_last_2_y, Weight_reduction_last_2_y, Antibiotics_last_2_y",9
+"XGB","Fold08.Rep03","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, COPD",6
+"XGB","Fold08.Rep04","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, COPD, University_education",7
+"XGB","Fold08.Rep05","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, No_comorbidities, Weight_reduction_last_2_y",8
+"XGB","Fold08.Rep06","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Weight_reduction_last_2_y, Sex, COPD",7
+"XGB","Fold08.Rep07","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Antibiotics_last_2_y, Pleural_fluid",7
+"XGB","Fold08.Rep08","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Weight_reduction_last_2_y, COPD, Cold_flu_pneumonia_last_2_y",8
+"XGB","Fold08.Rep09","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, University_education",7
+"XGB","Fold08.Rep10","Age, Current_daily_smoker, Living_alone, Sex, Pleural_fluid, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y",7
+"XGB","Fold09.Rep01","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, COPD",6
+"XGB","Fold09.Rep02","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, University_education, Born_in_sweden, COPD, Cold_flu_pneumonia_last_2_y",9
+"XGB","Fold09.Rep03","Age, Current_daily_smoker, Living_alone, Born_in_sweden, Pleural_fluid, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, University_education, COPD, Weight_reduction_last_2_y",11
+"XGB","Fold09.Rep04","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold09.Rep05","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, COPD, Antibiotics_last_2_y, Weight_reduction_last_2_y",8
+"XGB","Fold09.Rep06","Age, Living_alone, Current_daily_smoker, Sex, COPD, Pleural_fluid, University_education, Cold_flu_pneumonia_last_2_y",8
+"XGB","Fold09.Rep07","Age, Current_daily_smoker, Living_alone, Sex, Pleural_fluid, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold09.Rep08","Age, Current_daily_smoker, Cold_flu_pneumonia_last_2_y, Living_alone, Sex, Antibiotics_last_2_y, Weight_reduction_last_2_y",7
+"XGB","Fold09.Rep09","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, Weight_reduction_last_2_y, COPD, Asthma, Less_Smoking, University_education",11
+"XGB","Fold09.Rep10","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Weight_reduction_last_2_y, COPD, Cold_flu_pneumonia_last_2_y",8
+"XGB","Fold10.Rep01","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, Weight_reduction_last_2_y, COPD, Emphysema",9
+"XGB","Fold10.Rep02","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, Asthma",7
+"XGB","Fold10.Rep03","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Weight_reduction_last_2_y, COPD, Antibiotics_last_2_y",8
+"XGB","Fold10.Rep04","Age, Current_daily_smoker, Living_alone, Sex, Cold_flu_pneumonia_last_2_y, Pleural_fluid, Antibiotics_last_2_y, COPD",8
+"XGB","Fold10.Rep05","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex, Antibiotics_last_2_y, Less_Smoking",7
+"XGB","Fold10.Rep06","Age, Current_daily_smoker, Living_alone, Sex, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y",6
+"XGB","Fold10.Rep07","Age, Current_daily_smoker, Sex, Living_alone, Cold_flu_pneumonia_last_2_y, University_education, Weight_reduction_last_2_y",7
+"XGB","Fold10.Rep08","Age, Current_daily_smoker, Living_alone, Sex, COPD, Weight_reduction_last_2_y, University_education, Cold_flu_pneumonia_last_2_y",8
+"XGB","Fold10.Rep09","Age, Current_daily_smoker, Living_alone, Cold_flu_pneumonia_last_2_y, Sex",5
+"XGB","Fold10.Rep10","Age, Current_daily_smoker, Sex, Living_alone, Antibiotics_last_2_y, Cold_flu_pneumonia_last_2_y, COPD, University_education",8

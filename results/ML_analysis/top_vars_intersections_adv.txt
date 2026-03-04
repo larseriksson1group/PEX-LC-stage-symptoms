@@ -1,0 +1,21 @@
+
+RLR_only:
+Lost_sense_of_smell, Feeling_chilly, Less_Smoking
+
+RF_only:
+No_comorbidities, More_irritable, Legs_do_not_support, Pain_radiated_between_shoulder_blades_to_chest
+
+XGB_only:
+Hard_to_get_air
+
+RLR_RF:
+
+
+RLR_XGB:
+COPD, Pneumonia, Pain_comes_and_goes
+
+RF_XGB:
+Felt_tiredness_weakness_or_lack_of_energy_that_came_and_went, Asthma
+
+All_three:
+Age, Antibiotics_last_2_y, Loss_of_appetite, Thickness_in_throat, Gasp_for_air, Weight_increase_last_2_y, Living_alone, Back_pain, Current_daily_smoker, Irritating_cough, Weight_reduction_last_2_y, Early_satiety, Sex, Persisting_pain

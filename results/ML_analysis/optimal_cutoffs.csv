@@ -1,0 +1,7 @@
+"Analysis","model","metric","n","mean","sd","median","min","max","se","ci_lower","ci_upper"
+"Advanced","RF","threshold",100,0.454,0.087,0.456,0.211,0.649,0.009,0.437,0.471
+"Advanced","RLR","threshold",100,0.421,0.053,0.409,0.334,0.568,0.005,0.41,0.431
+"Advanced","XGB","threshold",100,0.41,0.105,0.406,0.189,0.677,0.01,0.389,0.431
+"Non_advanced","RF","threshold",100,0.402,0.091,0.401,0.116,0.6,0.009,0.384,0.42
+"Non_advanced","RLR","threshold",100,0.421,0.049,0.43,0.262,0.562,0.005,0.411,0.43
+"Non_advanced","XGB","threshold",100,0.473,0.03,0.474,0.365,0.55,0.003,0.467,0.479

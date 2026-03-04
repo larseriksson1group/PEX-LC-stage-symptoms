@@ -1,0 +1,9 @@
+
+Advanced_only:
+Felt_tiredness_weakness_or_lack_of_energy_that_came_and_went, Thickness_in_throat, Loss_of_appetite, Back_pain, Weight_increase_last_2_y, Gasp_for_air, Asthma, Early_satiety, Pain_comes_and_goes, Pneumonia, Persisting_pain
+
+Non_advanced_only:
+Cold_flu_pneumonia_last_2_y, Hoarse_voice, Less_will_to_do_things, Poorer_condition_lower_fitness, University_education, Dryer_mouth, Pleural_fluid, Increased_need_for_sleep, Fever, Wheezing, Breathing_sound_whistling
+
+Both:
+Age, Antibiotics_last_2_y, Current_daily_smoker, Sex, Living_alone, Irritating_cough, Weight_reduction_last_2_y, Hard_to_get_air, COPD

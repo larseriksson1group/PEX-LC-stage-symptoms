@@ -1,7 +1,7 @@
-"Stage_model","model","AUC_mean","AUC_sd","Sens_mean","Sens_sd","Spec_mean","Spec_sd","alpha","lambda","mtry","splitrule","min.node.size","eta","max_depth","gamma","colsample_bytree","min_child_weight","subsample","nrounds"
-"Advanced stage","RF",0.72,0.072,0.621,0.106,0.717,0.093,NA,NA,129,"gini",30,NA,NA,NA,NA,NA,NA,NA
-"Advanced stage","RLR",0.711,0.078,0.349,0.111,0.869,0.08,0.1,0.335981828628378,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Advanced stage","XGB",0.717,0.078,0.519,0.126,0.759,0.097,NA,NA,NA,NA,NA,0.1,6,5,0.6,1,0.5,200
-"Non-advanced stage","RF",0.642,0.092,0.52,0.127,0.66,0.12,NA,NA,64,"gini",30,NA,NA,NA,NA,NA,NA,NA
-"Non-advanced stage","RLR",0.691,0.089,0.409,0.113,0.803,0.102,0.5,0.0784759970351461,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Non-advanced stage","XGB",0.695,0.09,0.461,0.155,0.753,0.11,NA,NA,NA,NA,NA,0.01,3,5,0.9,3,0.8,50
+"Stage_model","model","AUC_mean","AUC_sd","AUC_CI_lower","AUC_CI_upper","alpha","lambda","mtry","splitrule","min.node.size","eta","max_depth","gamma","colsample_bytree","min_child_weight","subsample","nrounds"
+"Advanced stage","RF",0.72,0.072,0.706,0.734,NA,NA,129,"gini",30,NA,NA,NA,NA,NA,NA,NA
+"Advanced stage","RLR",0.711,0.078,0.696,0.727,0.1,0.335981828628378,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Advanced stage","XGB",0.717,0.078,0.701,0.732,NA,NA,NA,NA,NA,0.1,6,5,0.6,1,0.5,200
+"Non-advanced stage","RF",0.642,0.092,0.624,0.66,NA,NA,64,"gini",30,NA,NA,NA,NA,NA,NA,NA
+"Non-advanced stage","RLR",0.691,0.089,0.674,0.709,0.5,0.0784759970351461,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Non-advanced stage","XGB",0.695,0.09,0.677,0.712,NA,NA,NA,NA,NA,0.01,3,5,0.9,3,0.8,50

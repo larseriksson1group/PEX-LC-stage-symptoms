@@ -283,12 +283,12 @@ write.csv(opt_cutoff_table,
 # Plot performance metrics at optimal cutoff
 p1 <- plot_perf(perf_optimal_summary_nonadv |>
                   filter(!metric %in% c('threshold', 'Accuracy'))) +
-  labs(title = 'Model performance (optimal prob. threshold)',
+  labs(title = 'Model performance (adjusted prob. threshold)',
        subtitle = 'Non-advanced lung cancer')
 
 p2 <- plot_perf(perf_optimal_summary_adv |>
                   filter(!metric %in% c('threshold', 'Accuracy'))) +
-  labs(title = 'Model performance (optimal prob. threshold)',
+  labs(title = 'Model performance (adjusted prob. threshold)',
        subtitle = 'Advanced lung cancer')
 
 (p1 | p2) / guide_area() +
@@ -792,24 +792,28 @@ ggsave(filename = "selected_variables_histogram.pdf",
 # Best hyperparameters and corresponding mean performance
 best_perf_adv <- read.csv("results/ML_analysis/advanced/mean_perf_by_model.csv") |>
   semi_join(res_adv$best_params) |>
+  left_join(perf_adv |> filter(metric == 'ROC') |> dplyr::select(model, ci_lower, ci_upper),
+            by = 'model') |> 
   dplyr::select(model,
                 AUC_mean = ROC_mean, AUC_sd = ROC_sd,
-                Sens_mean, Sens_sd, Spec_mean, Spec_sd,
+                AUC_CI_lower = ci_lower, AUC_CI_upper = ci_upper,
                 alpha, lambda, mtry, splitrule, min.node.size,
                 eta, max_depth, gamma, colsample_bytree,
                 min_child_weight, subsample, nrounds) |>
-  mutate(across(contains(c('AUC', 'Sens', 'Spec')), ~round(.x, 3)),
+  mutate(across(contains('AUC'), ~round(.x, 3)),
          Stage_model = 'Advanced stage')
 
 best_perf_nonadv <- read.csv("results/ML_analysis/non_advanced/mean_perf_by_model.csv") |>
   semi_join(res_nonadv$best_params) |>
+  left_join(perf_nonadv |> filter(metric == 'ROC') |> dplyr::select(model, ci_lower, ci_upper),
+            by = 'model') |>
   dplyr::select(model,
                 AUC_mean = ROC_mean, AUC_sd = ROC_sd,
-                Sens_mean, Sens_sd, Spec_mean, Spec_sd,
+                AUC_CI_lower = ci_lower, AUC_CI_upper = ci_upper,
                 alpha, lambda, mtry, splitrule, min.node.size,
                 eta, max_depth, gamma, colsample_bytree,
                 min_child_weight, subsample, nrounds) |>
-  mutate(across(contains(c('AUC', 'Sens', 'Spec')), ~round(.x, 3)),
+  mutate(across(contains('AUC'), ~round(.x, 3)),
          Stage_model = 'Non-advanced stage')
 
 bind_rows(best_perf_adv, best_perf_nonadv) |>

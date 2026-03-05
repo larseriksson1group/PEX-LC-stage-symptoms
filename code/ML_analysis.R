@@ -230,13 +230,15 @@ roc_adv <- roc_plot(mean_rocs_adv, perf_adv, classes_adv,
 roc_nonadv <- roc_plot(mean_rocs_nonadv, perf_nonadv, classes_nonadv,
                        'Non-advanced lung cancer')
 
-(plot_spacer() | roc_nonadv | plot_spacer() | roc_adv) +
-  plot_layout(guides = 'collect', widths = c(0.01, 1, 0.01, 1))
+(roc_nonadv | plot_spacer() | roc_adv) +
+  plot_layout(guides = 'collect', widths = c(1, 0.1, 1)) &
+  theme(legend.position = 'bottom')
 
 ggsave(filename = "ROC_by_model.pdf",
        path = 'results/ML_analysis',
-       width = 18, height = 7.5, units = 'cm')
-
+       width = 18, 
+       height = 9, 
+       units = 'cm')
 
 # --------------------------------------------------------------------------- #
 # ------------------- Performance at optimal cutoff ------------------------- 
@@ -424,12 +426,19 @@ dca_res_nonadv  <- format_dca_results(list(
 
 ## Plot DCA curves for both analyses
 
-dca_plot(dca_res_nonadv, 'Non-advanced lung cancer') +
-  dca_plot(dca_res_adv,    'Advanced lung cancer')
+dca_plot(dca_res_nonadv, 'Non-advanced lung cancer')
 
-ggsave(filename = "dca_plots.pdf",
+ggsave(filename = "dca_non_advanced.pdf",
        path = 'results/ML_analysis',
-       width = 18, 
+       width = 8.7, 
+       height = 6.5, 
+       units = 'cm')
+
+dca_plot(dca_res_adv, 'Advanced lung cancer')
+
+ggsave(filename = "dca_advanced.pdf",
+       path = 'results/ML_analysis',
+       width = 8.7, 
        height = 6.5, 
        units = 'cm')
 

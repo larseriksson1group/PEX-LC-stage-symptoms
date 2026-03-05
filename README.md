@@ -8,7 +8,7 @@ The results of the study are published in _:
 Gustavell, T., Sissala, N., Babačić, H. et al. Predicting lung cancer stage at diagnosis based on self-reported symptoms and background factors using machine learning models. [Journal], [Year]. [DOI]
 
 ## Contents
-This repository contains all code used for the machine learning analysis performed in the study, including result interpretation and visualization. **Note:** The data are not publicly available to protect study participants' privacy. Code and results are provided for transparency and reproducibility of the analytical approach.
+This repository contains all code used for the univartiate and machine learning analysis performed in the study, including result interpretation and visualization. **Note:** The data are not publicly available to protect study participants' privacy. Code and results are provided for transparency and reproducibility of the analytical approach.
 
 ## Repository structure
 

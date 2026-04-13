@@ -39,7 +39,7 @@ If you use this code in your research, please cite the original publication and 
 
 Article: Gustavell, T., Sissala, N., Pernemalm, M. et al. Predicting lung cancer stage at diagnosis based on self-reported symptoms and background factors using machine learning models. Sci Rep 16, 11866 (2026). [https://doi.org/10.1038/s41598-026-46710-8](https://doi.org/10.1038/s41598-026-46710-8).
 
-Code: Sissala, N. PEX-LC-stage-symptoms. Zenodo [10.5281/zenodo.18877623](10.5281/zenodo.18877623) 2026.
+Code: Sissala, N. PEX-LC-stage-symptoms. Zenodo [https://doi.org/10.5281/zenodo.18877623](https://doi.org/10.5281/zenodo.18877623) (2026).
 
 ## License
 This project is licensed under the MIT License.

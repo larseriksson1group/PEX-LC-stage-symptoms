@@ -3,9 +3,9 @@
 ## Introduction
 This study characterised and compared background factors and symptoms at diagnosis across patients with non-advanced lung cancer, advanced lung cancer, and cancer-free controls. Univariate logistic regression and multivariate machine learning models (regularized logistic regression, random forest, and extreme gradient boosting) were used to identify variables that contribute to the detection of early- and late-stage lung cancer, and to assess the potential predictive value of detailed patient-reported symptom data and background factors.
 
-The results of the study are published in _:
+The results of the study are published in Scientific Reports:
 
-Gustavell, T., Sissala, N., Babačić, H. et al. Predicting lung cancer stage at diagnosis based on self-reported symptoms and background factors using machine learning models. [Journal], [Year]. [DOI]
+Gustavell, T., Sissala, N., Pernemalm, M. et al. Predicting lung cancer stage at diagnosis based on self-reported symptoms and background factors using machine learning models. Sci Rep 16, 11866 (2026). [https://doi.org/10.1038/s41598-026-46710-8](https://doi.org/10.1038/s41598-026-46710-8).
 
 ## Contents
 This repository contains all code used for the univartiate and machine learning analysis performed in the study, including result interpretation and visualization. **Note:** The data are not publicly available to protect study participants' privacy. Code and results are provided for transparency and reproducibility of the analytical approach.
@@ -37,9 +37,9 @@ The R packages used in the project are recorded in `results/ML_analysis/session_
 ## Citation
 If you use this code in your research, please cite the original publication and the code:
 
-Article: Gustavell, T., Sissala, N., Babačić, H. et al. Predicting lung cancer stage at diagnosis based on self-reported symptoms and background factors using machine learning models. [Journal], [Year]. [DOI]
+Article: Gustavell, T., Sissala, N., Pernemalm, M. et al. Predicting lung cancer stage at diagnosis based on self-reported symptoms and background factors using machine learning models. Sci Rep 16, 11866 (2026). [https://doi.org/10.1038/s41598-026-46710-8](https://doi.org/10.1038/s41598-026-46710-8).
 
-Code: Sissala, N. PEX-LC-stage-symptoms. Zenodo [doi] [Year].
+Code: Sissala, N. PEX-LC-stage-symptoms. Zenodo [10.5281/zenodo.18877623](10.5281/zenodo.18877623) 2026.
 
 ## License
 This project is licensed under the MIT License.
